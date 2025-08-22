@@ -230,7 +230,7 @@ nt, N, mcSteps 값을 늘릴수록 결과가 실제 해(정확한 값)에 가까
 여기서 분석하는 물리량은 에너지(E), 비열(C)이며 공식은 다음과 같다.  <br>  
 
 ```math
-\mathcal{ E } = \frac{1}{N^2} \sum^{N^2}_{\langle i \rangle } H_i
+\mathcal{\langle E \rangle} = \frac{1}{N^2} \sum^{N^2}_{\langle i \rangle } H_i
 ```
 
 ```math
