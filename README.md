@@ -55,7 +55,7 @@ J < 0 : Anti-Ferromagnetic(이웃 스핀이 반대 방향을 선호)
 
 몬테카를로 시뮬레이션을 하기 위해선 난수가 필요하며, python의 `numpy.random`를 이용해 난수를 생성할 것이다.  
 `state = np.random.randint(2, size=(N,N))` : 무작위로 0 이상 2미만, 즉 [0, 1] 값을 갖는 N×N 스핀 격자를 만드는 코드   
-`state = 2*np.random.randint(2, size=(N,N))-1` : [0, 1]값에 2를 곱한 후 1을 빼준다, 즉 [-1, +1] 값을 갖는 N×N 스핀 격자를 만드는 코드
+`state = 2*np.random.randint(2, size=(N,N))-1` : [0, 1]값에 2를 곱한 후 1을 빼준다, 즉 [-1, +1] 값을 갖는 N×N 스핀 격자를 만드는 코드  
 `plt.imshow(state, cmap="binary")`: state를 이미지처럼 시각화해주는 함수, cmap="binary"은 흑백 컬러맵을 사용한다는 코드(흑: -1, 백: +1)  
 
 <br>
